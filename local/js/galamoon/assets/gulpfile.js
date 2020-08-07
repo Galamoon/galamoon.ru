@@ -17,7 +17,6 @@ gulp.task('sass', function () {
         .pipe(sass({
             outputStyle: 'compressed'
         }).on('error', sass.logError))
-        .pipe(autoprefixer())
         .pipe(concat('assets.bundle.css'))
         .pipe(sourcemaps.write('./', {
             sourceMappingURLPrefix: '/local/js/galamoon/assets/dist'
