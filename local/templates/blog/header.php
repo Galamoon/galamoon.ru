@@ -8,9 +8,12 @@ if ( ! defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) {
 }
 ?>
 <!DOCTYPE html>
-<html>
+<html class="no-js">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="UTF-8">
     <? $APPLICATION->ShowHead(); ?>
+    <? CJSCore::Init(array('jquery2')); ?>
     <? if ($USER->IsAdmin()) {
         $arAssets = \Bitrix\Main\UI\Extension::getAssets('galamoon.assets');
         foreach ($arAssets['css'] as $sCssFile) {
