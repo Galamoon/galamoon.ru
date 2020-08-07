@@ -4,7 +4,8 @@
     "andreyryabin/sprint.migration": "3.*"
   },
   "config": {
-    "vendor-dir": "../bitrix/vendor"
+    "vendor-dir": "../bitrix/vendor",
+    "optimize-autoloader": true
   },
   "autoload": {
     "psr-4": {
