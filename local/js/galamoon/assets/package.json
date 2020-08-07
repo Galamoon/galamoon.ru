@@ -9,10 +9,13 @@
   "author": "Alexandr Zemlyanoi",
   "license": "ISC",
   "devDependencies": {
-    "node-sass": "^4.14.1",
-    "rollup-plugin-collect-sass": "^1.0.9",
-    "rollup-plugin-scss": "^2.5.0",
-    "sass": "^1.26.10"
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-livereload": "^4.0.2",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "node-sass": "^4.14.1"
   },
   "dependencies": {}
 }

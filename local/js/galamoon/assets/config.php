@@ -4,8 +4,8 @@ if ( ! defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true) {
 }
 
 return [
-    'css' => './dist/loader.bundle.css',
-    'js'  => './dist/loader.bundle.js',
+    'css' => './dist/assets.bundle.css',
+    'js'  => './dist/assets.bundle.js',
     'rel' => [
 		'main.core',
 	],
