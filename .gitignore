@@ -1,0 +1,8 @@
+.idea
+
+#Core
+bitrix
+upload
+
+#Composer dependency
+local/modules/sprint.migration

@@ -1,0 +1,18 @@
+{
+  "name": "galamoon.assets",
+  "version": "1.0.0",
+  "description": "blog",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alexandr Zemlyanoi",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.14.1",
+    "rollup-plugin-collect-sass": "^1.0.9",
+    "rollup-plugin-scss": "^2.5.0",
+    "sass": "^1.26.10"
+  },
+  "dependencies": {}
+}

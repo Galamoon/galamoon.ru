@@ -1,0 +1,26 @@
+{
+  "require": {
+    "wikimedia/composer-merge-plugin": "1.4.*",
+    "andreyryabin/sprint.migration": "3.*"
+  },
+  "config": {
+    "vendor-dir": "../bitrix/vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "Galamoon\\": "./php_interface/include"
+    }
+  },
+  "extra": {
+    "installer-paths": {
+      "./modules/{$name}/": [
+        "type:bitrix-module"
+      ]
+    },
+    "merge-plugin": {
+      "require": [
+        "../bitrix/composer-bx.json"
+      ]
+    }
+  }
+}
