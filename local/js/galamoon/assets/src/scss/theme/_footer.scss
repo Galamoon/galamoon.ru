@@ -36,17 +36,16 @@
     margin-bottom: 10px;
 
     a {
-      color: $text-color;
+      color: #fff;
       @include transition();
 
       &:hover {
-        color: $primary-color;
+        text-decoration: underline;
       }
     }
   }
 
   .bb-btn {
-    color: $primary-color;
     color: #fff;
     font-weight: 300;
     border-radius: 0;
@@ -129,11 +128,14 @@
   }
 
   .footer-social {
+    p {
+      margin-bottom: 0;
+    }
+
     a {
-      width: 30px;
       height: 30px;
       display: inline-block;
-      text-align: center;
+      color: #fff;
       @include transition();
 
       i {
@@ -142,10 +144,9 @@
       }
 
       &:hover {
-        i {
-          color: $primary-color;
+        span {
+          text-decoration: underline;
         }
-
       }
     }
   }

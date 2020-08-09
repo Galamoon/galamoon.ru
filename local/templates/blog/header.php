@@ -73,19 +73,9 @@ if ( ! defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) {
                     </li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
-            </nav><!-- #nav-menu-container -->
+            </nav>
         </div>
     </div>
 </header>
 
-<section class="relative about-banner">
-    <div class="overlay overlay-bg"></div>
-    <div class="container">
-        <div class="row d-flex align-items-center justify-content-center">
-            <div class="about-content col-lg-12">
-                <h1 class="text-white"><? $APPLICATION->ShowTitle(true); ?></h1>
-                <p class="text-white link-nav"><a href="index.html">Home </a>  <span class="lnr lnr-arrow-right"></span><a href="blog-home.html">Blog </a> <span class="lnr lnr-arrow-right"></span> <a href="blog-single.html"> Blog Details Page</a></p>
-            </div>
-        </div>
-    </div>
-</section>
+<? $APPLICATION->ShowViewContent('sub_header'); ?>
