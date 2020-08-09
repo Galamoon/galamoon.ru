@@ -47,33 +47,22 @@ if ( ! defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) {
                 <a href="/">Galamoon</a>
                 <p>Да, мысли материализуются на самом деле!?</p>
             </div>
-            <nav id="nav-menu-container">
-                <ul class="nav-menu">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="price.html">Pricing</a></li>
-                    <li class="menu-has-children"><a href="">Blog</a>
-                        <ul>
-                            <li><a href="blog-home.html">Blog Home</a></li>
-                            <li><a href="blog-single.html">Blog Single</a></li>
-                        </ul>
-                    </li>
-                    <li class="menu-has-children"><a href="">Pages</a>
-                        <ul>
-                            <li><a href="elements.html">Elements</a></li>
-                            <li class="menu-has-children"><a href="">Level 2 </a>
-                                <ul>
-                                    <li><a href="#">Item One</a></li>
-                                    <li><a href="#">Item Two</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
+            <? $APPLICATION->IncludeComponent(
+                "bitrix:menu",
+                "top",
+                [
+                    "ALLOW_MULTI_SELECT"    => "N",
+                    "CHILD_MENU_TYPE"       => "left",
+                    "DELAY"                 => "Y",
+                    "MAX_LEVEL"             => "2",
+                    "MENU_CACHE_GET_VARS"   => [""],
+                    "MENU_CACHE_TIME"       => "3600",
+                    "MENU_CACHE_TYPE"       => "A",
+                    "MENU_CACHE_USE_GROUPS" => "Y",
+                    "ROOT_MENU_TYPE"        => "top",
+                    "USE_EXT"               => "Y"
+                ]
+            ); ?>
         </div>
     </div>
 </header>
