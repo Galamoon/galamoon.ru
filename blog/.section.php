@@ -1,4 +1,6 @@
 <?
 $sSectionName    = "Блог";
-$arDirProperties = array();
+$arDirProperties = array(
+    'SUB-HEADER' => 'Y'
+);
 ?>

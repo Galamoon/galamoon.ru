@@ -1,4 +1,6 @@
 <?
 $sSectionName    = "Политика использования персональных данных";
-$arDirProperties = array();
+$arDirProperties = array(
+    'SUB-HEADER' => 'Y'
+);
 ?>

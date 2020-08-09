@@ -1,4 +1,6 @@
 <?
 $sSectionName    = "Поддержка и сопровождение проектов";
-$arDirProperties = array();
+$arDirProperties = array(
+    'SUB-HEADER' => 'Y'
+);
 ?>

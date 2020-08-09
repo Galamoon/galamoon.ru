@@ -68,7 +68,7 @@ if ( ! defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) {
 </header>
 
 <section class="relative sub-header">
-    <? if ( ! defined('MAIN_PAGE') || MAIN_PAGE === false): ?>
+    <? if ($APPLICATION->GetDirProperty('SUB-HEADER') === 'Y'): ?>
         <div class="overlay overlay-bg p1-gradient-bg"></div>
         <div class="container">
             <div class="row d-flex align-items-center justify-content-center">

@@ -1,4 +1,6 @@
 <?
 $sSectionName    = "Обо мне";
-$arDirProperties = array();
+$arDirProperties = array(
+    'SUB-HEADER' => 'Y'
+);
 ?>
