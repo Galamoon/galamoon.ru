@@ -78,4 +78,6 @@ if ( ! defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) {
     </div>
 </header>
 
-<? $APPLICATION->ShowViewContent('sub_header'); ?>
+<section class="relative sub-header">
+    <? $APPLICATION->ShowViewContent('sub-header'); ?>
+</section>
