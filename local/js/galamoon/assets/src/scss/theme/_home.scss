@@ -729,16 +729,15 @@
   @extend .p1-gradient-bg;
 }
 
-.about-content {
-  margin-top: 70px;
-  padding: 90px 0px;
+.subhead-content {
+  padding: 65px 0px;
   text-align: center;
   @media(max-width: 767px) {
     margin-top: 70px;
   }
 
   h1 {
-    font-size: 48px;
+    font-size: 32px;
     font-weight: 600;
   }
 
@@ -752,6 +751,12 @@
     margin: 0px 10px;
     font-weight: 600;
   }
+}
+
+.section-content {
+  background: #f9f9ff;
+  padding: 70px 0 70px 0;
+
 }
 
 

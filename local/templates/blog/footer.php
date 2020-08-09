@@ -3,7 +3,8 @@ if ( ! defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) {
     die();
 }
 ?>
-
+</div>
+</section>
 <footer class="footer-area section-gap">
     <div class="container">
         <div class="row">
@@ -31,6 +32,8 @@ if ( ! defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) {
                                         <span class="lnr lnr-arrow-right"></span>
                                     </button>
                                 </div>
+                                <p class="data-policy">Отправляя форму вы соглашаетесь на обработку ваших персональных данных в соответствии с
+                                    <a href="/data-policy/">Политикой обработки персональных данных</a></p>
                                 <div class="info"></div>
                             </div>
                         </form>

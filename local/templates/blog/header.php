@@ -68,5 +68,26 @@ if ( ! defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) {
 </header>
 
 <section class="relative sub-header">
-    <? $APPLICATION->ShowViewContent('sub-header'); ?>
+    <? if ( ! defined('MAIN_PAGE') || MAIN_PAGE === false): ?>
+        <div class="overlay overlay-bg p1-gradient-bg"></div>
+        <div class="container">
+            <div class="row d-flex align-items-center justify-content-center">
+                <div class="subhead-content col-lg-12">
+                    <h1 class="text-white"><? $APPLICATION->ShowTitle(); ?></h1>
+                    <? $APPLICATION->IncludeComponent(
+                        "bitrix:breadcrumb",
+                        "top",
+                        array(
+                            "PATH"       => "",
+                            "SITE_ID"    => "s1",
+                            "START_FROM" => "0"
+                        )
+                    ); ?>
+                </div>
+            </div>
+        </div>
+    <? endif; ?>
 </section>
+
+<section class="section-content">
+    <div class="container">

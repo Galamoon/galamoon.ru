@@ -9,6 +9,8 @@
 
 
 .single-footer-widget {
+  color: #777;
+
   h4 {
     color: $white !important;
     margin-bottom: 25px;
@@ -53,6 +55,18 @@
     cursor: pointer;
   }
 
+  .data-policy {
+    margin-top: 15px;
+
+    a {
+      color: #fff;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
   .info {
     margin-top: 25px;
     color: #fff;
@@ -87,7 +101,7 @@
   }
 
   ::selection {
-    background-color: #191919 !important;
+    background-color: #ffffff !important;
     color: $text-color;
   }
 
