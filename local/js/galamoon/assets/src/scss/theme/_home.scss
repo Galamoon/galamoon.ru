@@ -39,7 +39,6 @@
   position: relative;
   @include transition();
   cursor: pointer;
-  position: relative;
 
   &:focus {
     outline: none;

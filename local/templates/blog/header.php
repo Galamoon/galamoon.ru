@@ -8,7 +8,7 @@ if ( ! defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) {
 }
 ?>
 <!DOCTYPE html>
-<html class="no-js">
+<html class="no-js" lang="<?= LANGUAGE_ID ?>">
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta charset="UTF-8">
