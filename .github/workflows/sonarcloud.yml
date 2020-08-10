@@ -10,16 +10,6 @@ jobs:
   sonarcloud:
     runs-on: ubuntu-latest
     steps:
-      - name: 'Setup PHP'
-        uses: shivammathur/setup-php@v2
-        with:
-          php-version: '7.4'
-          extensions: mbstring, intl
-          tools: composer:v2
-      - name: 'Composer install'
-        run: cd local && composer install
-      - name: 'Build assets'
-        run: (cd local/js/galamoon/assets && npm i && gulp build)
       - uses: actions/checkout@v2
         with:
           fetch-depth: 0
