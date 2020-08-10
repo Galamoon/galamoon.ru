@@ -16,6 +16,16 @@ if ( ! defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) {
                         <li><a href="/data-policy/">Политика использования персональных данных</a></li>
                         <li><a href="/maintenance-of-projects/">Поддержка и сопровождение проектов</a></li>
                     </ul>
+                    <p class="footer-text">
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        Copyright ©<?=date('Y')?> All rights reserved <br>
+                        This template is made with
+                        <i class="fa fa-heart-o" aria-hidden="true"></i> by
+                        <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        <br>
+                        <a href="https://github.com/Galamoon/galamoon.ru"><i class="fa fa-github"></i> galamoon.ru</a>
+                    </p>
                 </div>
             </div>
             <div class="col-lg-5 col-md-6 col-sm-6">
@@ -32,7 +42,8 @@ if ( ! defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) {
                                         <span class="lnr lnr-arrow-right"></span>
                                     </button>
                                 </div>
-                                <p class="data-policy">Отправляя форму вы соглашаетесь на обработку ваших персональных данных в соответствии с
+                                <p class="data-policy">Отправляя форму вы соглашаетесь на обработку ваших персональных
+                                    данных в соответствии с
                                     <a href="/data-policy/">Политикой обработки персональных данных</a></p>
                                 <div class="info"></div>
                             </div>
