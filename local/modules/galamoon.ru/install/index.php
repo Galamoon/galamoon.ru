@@ -29,10 +29,22 @@ class galamoon_ru extends CModule
     function DoInstall()
     {
         \Bitrix\Main\ModuleManager::registerModule($this->MODULE_ID);
+        $this->InstallEvents();
     }
 
     function DoUninstall()
     {
+        $this->unInstallEvents();
         \Bitrix\Main\ModuleManager::unRegisterModule($this->MODULE_ID);
+    }
+
+    function InstallEvents()
+    {
+        $oEventManager = \Bitrix\Main\EventManager::getInstance();//OnPageStart
+    }
+
+    function unInstallEvents()
+    {
+        $oEventManager = \Bitrix\Main\EventManager::getInstance();//OnPageStart
     }
 }
